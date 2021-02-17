@@ -1,0 +1,5 @@
+{
+  "extends": ["config:base"],
+  "enabledManagers": ["npm", "nvm"],
+  "node": { "supportPolicy": ["lts_latest"], "major": { "enabled": true } }
+}
